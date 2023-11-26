@@ -28,4 +28,4 @@ def levenshtein_distance(str1, str2):
 str1 = "kitten"
 str2 = "sitting"
 distance = levenshtein_distance(str1, str2)
-print(f"The Levenshtein distance between '{str1}' and '{str2}' is {distance}.")
+print(distance)
