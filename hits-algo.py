@@ -1,5 +1,4 @@
 import networkx as nx
-
 def hits_algorithm(graph, max_iter=100, tol=1e-6):
     """
     Compute HITS (Hubs and Authorities) scores for nodes in a graph.
