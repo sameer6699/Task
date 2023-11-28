@@ -1,16 +1,16 @@
 import math
 import random
 
-# This Function computes factorial of a number
+# This Function computes factorial of a number.
 def factorial(n):
     if n == 0 or n == 1:
         return 1
     else:
         return n * factorial(n-1)
 
-# This function Tests automation program
+# This function Tests automation program.
 def test_factorial():
-    # Generate 100 random numbers and compute their factorials
+    # Generate 100 random numbers and compute their factorials.
     test_data = {}
     for _ in range(100):
         num = random.randint(0, 25)  # Initially we took the factorial of 25 Numbers. 
