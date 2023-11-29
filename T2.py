@@ -26,7 +26,7 @@ def test_factorial():
             print(f"Test passed for input {num}. Expected: {expected_result}, Result_Got: {result}")
         else:
             print(f"Test failed for input {num}. Expected: {expected_result}, Result_Got: {result}")
-
+            
     print("All tests passed successfully!")
 
 # Run the test automation program
