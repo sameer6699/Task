@@ -22,7 +22,7 @@ def test_factorial():
     test_data = {}
     for _ in range(100):
         num = random.randint(0, 25)  # Initially we took the factorial of 25 Numbers. 
-        expected_result = factorial(num)
+        expected_result = math.factorial(num)
         test_data[num] = expected_result
         result = factorial(num)
         
