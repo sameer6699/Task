@@ -24,7 +24,7 @@ def test_factorial():
         num = random.randint(0, 25)  # Initially we took the factorial of 25 Numbers. 
         expected_result = math.factorial(num)
         #Introduce the False positives for testing 
-        if random.random()<0.1: # 10% chance of Introducing the false positive values. 
+        if random.random()<0.5: # 10% chance of Introducing the false positive values. 
             expected_result +=1
 
         test_data[num] = expected_result
